@@ -1,0 +1,40 @@
+﻿<Properties StartupConfiguration="{73CAC928-542D-48AE-845C-381532690C90}|Default">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Base PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Base/Controllers/TodoItemController.cs">
+    <Files>
+      <File FileName="Base/data/Models/ApplicationDBContext.cs" Line="1" Column="1" />
+      <File FileName="Base/data/Models/TodoContext.cs" Line="1" Column="1" />
+      <File FileName="Base/Controllers/TodoItemController.cs" Line="14" Column="20" />
+      <File FileName="Base/Controllers/WeatherForecastController.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Base" expanded="True">
+            <Node name="Base" expanded="True">
+              <Node name="Dependencies" expanded="True" />
+              <Node name="Controllers" expanded="True">
+                <Node name="TodoItemController.cs" selected="True" />
+              </Node>
+              <Node name="data" expanded="True">
+                <Node name="Models" expanded="True" />
+                <Node name="Services" expanded="True" />
+              </Node>
+              <Node name="Properties" expanded="True" />
+              <Node name="appsettings.json" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+</Properties>
