@@ -1,24 +1,17 @@
 ﻿<Properties StartupConfiguration="{73CAC928-542D-48AE-845C-381532690C90}|Default">
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.Base PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="Base/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Base/Controllers/TodoItemController.cs">
     <Files>
-      <File FileName="Base/data/Models/ApplicationDBContext.cs" Line="12" Column="28" />
+      <File FileName="Base/data/Models/ApplicationDBContext.cs" Line="21" Column="1" />
       <File FileName="Base/data/Models/TodoContext.cs" Line="1" Column="1" />
-      <File FileName="Base/Controllers/TodoItemController.cs" Line="24" Column="34" />
+      <File FileName="Base/Controllers/TodoItemController.cs" Line="25" Column="10" />
       <File FileName="Base/Controllers/WeatherForecastController.cs" />
-      <File FileName="Base/data/Services/TodoService.cs" Line="39" Column="6" />
-      <File FileName="Base/data/Services/ITodoInterface.cs" Line="6" Column="24" />
+      <File FileName="Base/data/Services/TodoService.cs" />
+      <File FileName="Base/data/Services/ITodoInterface.cs" />
       <File FileName="Base/data/Models/TodoItemModel.cs" Line="1" Column="1" />
       <File FileName="Base/data/Models/WeatherForecast.cs" Line="1" Column="1" />
-      <File FileName="Base/Properties/launchSettings.json" Line="23" Column="29" />
-      <File FileName="Base/Program.cs" Line="15" Column="63" />
-      <File FileName="Base/data/Services/FakeTodoService.cs" Line="7" Column="30" />
+      <File FileName="Base/Properties/launchSettings.json" />
+      <File FileName="Base/Program.cs" Line="7" Column="1" />
+      <File FileName="Base/data/Services/FakeTodoService.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -33,14 +26,17 @@
               </Node>
               <Node name="Properties" expanded="True" />
               <Node name="appsettings.json" expanded="True" />
-              <Node name="Program.cs" selected="True" />
             </Node>
           </Node>
         </State>
       </Pad>
-      <Pad Id="MonoDevelop.Debugger.WatchPad">
-        <State />
-      </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Base PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>
