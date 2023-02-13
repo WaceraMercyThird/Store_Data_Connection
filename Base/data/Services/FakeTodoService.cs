@@ -16,7 +16,7 @@ namespace Base.data.Services
 
         public async Task<List<TodoItem>> GetTodoItems()
         {
-            return await _todoContext.TodoItems.ToListAsync();
+            return await  _todoContext.TodoItems.ToListAsync();
         }
         public async Task<TodoItem> GetTodoItem(long id)
         {

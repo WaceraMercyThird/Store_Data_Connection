@@ -1,8 +1,7 @@
 ﻿using System;
 using Base.data.Models;
-using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Mvc;
-using System.Data.Entity;
+using Microsoft.EntityFrameworkCore;
 
 namespace Base.data.Services
 {

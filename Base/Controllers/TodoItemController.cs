@@ -18,18 +18,19 @@ namespace Base.Controllers
     [ApiController]
     public class TodoItemController : Controller
     {
-        //private readonly ApplicationDBContext _todoContext;
+        private readonly ApplicationDBContext _todoContext;
         private readonly ITodoInterface _iTodoService;
 
         public TodoItemController(ApplicationDBContext todoContext, ITodoInterface iTodoService)
         {
-            //_todoContext = todoContext;
+           _todoContext = todoContext;
             _iTodoService = iTodoService;
         }
         // GET: /<controller>/
         [HttpGet]
         public async Task<List<TodoItem>> GetTodos()
         {
+            var a = await _iTodoService.GetTodoItems();
             return await _iTodoService.GetTodoItems();
         }
 
@@ -83,6 +84,34 @@ namespace Base.Controllers
 
             return NoContent();
         }
+
+        // DELETE: api/TodoItem
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> DeleteTodoItem(long id)
+        {
+            if (_todoContext.TodoItems == null)
+            {
+                return NotFound();
+            }
+            var todoItem = await _todoContext.TodoItems.FindAsync(id);
+            if (todoItem == null)
+            {
+                return NotFound();
+            }
+
+            _todoContext.TodoItems.Remove(todoItem);
+            await _todoContext.SaveChangesAsync();
+
+            return NoContent();
+        }
+
+        private bool TodoItemExists(long id)
+        {
+            return (_todoContext.TodoItems?.Any(e => e.Id == id)).GetValueOrDefault();
+        }
+
+
+        
 
     }
 }
